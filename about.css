@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    position: relative;
+
+}
+
+.container {
+    width: 100%;
+    max-width: 1430px;
+    margin: auto;
+    padding: 0%;
+    overflow: hidden !important;
+
+}
+
+header {
+
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 10px;
+
+}
+
+.logo div {
+    width: 100px;
+}
+
+.logo {
+    font-size: 35px;
+    width: 177px;
+    color: #000;
+}
+
+.menu-items {
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.link {
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.logo:hover {
+    color: #ff5a87;
+
+}
+
+.link:hover {
+    color: #ff5a87;
+
+}
+
+
+
+.side-menu {
+    position: absolute;
+    transition: all 1s ease !important;
+    top: 90px;
+    left: -300px;
+    height: 100vh;
+    box-shadow: 0px 0px 5px black;
+    padding: 20px 0px;
+    text-align: center;
+    z-index: 999;
+    width: 220px;
+    background-color: white;
+    opacity: 0;
+
+}
+
+.side-items {
+
+    margin: 20px 0px;
+    font-size: 20px;
+}
+
+.menu-button {
+    display: none;
+    position: relative;
+    z-index: 99999;
+}
+
+.menu-button:hover~.side-menu {
+    left: 0;
+    opacity: 1;
+}
+
+.section-1 {
+    margin-top: 100px;
+}
+
+.tittle-text {
+    text-align: center;
+}
+
+#p {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.text {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.ap-line {
+    font-size: 20px;
+}
+
+.q {
+    margin: 40px;
+}
+
+#a {
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+    margin: 30px 0px;
+}
+
+.main-box-1 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-box-1 {
+    width: 50%;
+}
+
+.screen-shot-1 {
+    width: 50%;
+    position: relative;
+
+}
+
+.t {
+    margin: 40px 0;
+    line-height: 1.4;
+    font-size: 17px;
+}
+
+.ss-1 {
+    width: 60%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.31);
+    border-radius: 10px;
+}
+
+.ss-1 img {
+    width: 100%;
+}
+
+.ss-2 {
+    width: 60%;
+    position: absolute;
+    left: 100px;
+    top: 70px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.31);
+    border-radius: 10px;
+
+}
+
+.ss-2 img {
+    width: 100%;
+}
+
+.main-box-2 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-box-2 {
+    width: 50%;
+}
+
+.screen-shot-2 {
+    width: 50%;
+    position: relative;
+
+}
+
+.ss-div-1 {
+    width: 60%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.31);
+    border-radius: 10px;
+}
+
+.ss-div-1 img {
+    width: 100%;
+}
+
+.ss-div-2 {
+
+    width: 60%;
+    width: 60%;
+    position: absolute;
+    left: 100px;
+    top: 70px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.31);
+    border-radius: 10px;
+
+}
+
+.ss-div-2 img {
+
+    width: 100%;
+}
+
+/* 3rd.....  */
+
+.main-box-3 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-box-3 {
+    width: 50%;
+}
+
+.screen-shot-3 {
+    width: 50%;
+    position: relative;
+
+}
+
+
+
+
+.ss-img-1 {
+    width: 60%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.31);
+    border-radius: 10px;
+
+}
+
+.ss-img-1 img {
+    width: 100%;
+}
+
+.ss-img-2 {
+
+    width: 60%;
+    width: 60%;
+    position: absolute;
+    left: 100px;
+    top: 70px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.31);
+    border-radius: 10px;
+    opacity: 0.9;
+}
+
+.ss-img-2 img {
+
+    width: 100%;
+}
+
+
+
+@media (max-width:991px) {
+    .menu {
+        display: none;
+    }
+
+    .menu-button {
+        display: block;
+    }
+
+    .main-box-1 {
+        flex-wrap: wrap;
+    }
+
+    .text-box-1 {
+        width: 100%;
+    }
+
+    .screen-shot-1 {
+        width: 100%;
+        
+    }
+
+    .main-box-2 {}
+
+    .main-box-3 {}
+}
+
+@media (max-width:850px) {}
+
+@media (max-width:768px) {}
+
+@media (max-width:576px) {}
+
+@media (max-width:230px) {}
